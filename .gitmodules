@@ -134,3 +134,9 @@
 [submodule "packages/xtables-addons"]
 	path = packages/xtables-addons
 	url = https://github.com/mickvav/xtables-addons.git
+[submodule "packages/accel-ppp"]
+	path = packages/accel-ppp
+	url = https://github.com/mickvav/accel-ppp.git
+[submodule "packages/vyatta-accel-ppp"]
+	path = packages/vyatta-accel-ppp
+	url = https://github.com/mickvav/vyatta-accel-ppp.git
