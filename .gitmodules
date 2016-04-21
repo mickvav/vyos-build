@@ -140,3 +140,6 @@
 [submodule "packages/vyatta-accel-ppp"]
 	path = packages/vyatta-accel-ppp
 	url = https://github.com/mickvav/vyatta-accel-ppp.git
+[submodule "packages/ipt-netflow-code"]
+	path = packages/ipt-netflow-code
+	url = https://github.com/mickvav/ipt-netflow-code
