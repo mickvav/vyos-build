@@ -10,6 +10,12 @@ socat
 telnet
 tcpdump
 nano
-vim-tiny
+vim
+bind9
+nfs-client
+man
+git
+cvs
+make
 screen
 minicom
