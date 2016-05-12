@@ -19,3 +19,6 @@ cvs
 make
 screen
 minicom
+aptitude
+firmware-bnx2
+firmware-bnx2x
