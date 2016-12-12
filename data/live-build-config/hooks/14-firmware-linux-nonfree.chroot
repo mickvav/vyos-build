@@ -1,21 +1,16 @@
 #!/bin/sh
 
-<<<<<<< HEAD
 if [ -f /etc/apt/sources.list ]; then
    cp /etc/apt/sources.list /etc/apt/sources.list.d/non-free.list
    sed -i 's/main/non-free/g' /etc/apt/sources.list.d/non-free.list
 else
    echo 'deb http://debian.intergenia.de/debian/ jessie main contrib non-free' > /etc/apt/sources.list
 fi
-=======
-cp /etc/apt/sources.list /etc/apt/sources.list.d/non-free.list
-sed -i 's/main/non-free/g' /etc/apt/sources.list.d/non-free.list
 
 if [ -e /etc/apt/sources.list.d/zz-sources.list ] ; then
 	cp /etc/apt/sources.list /etc/apt/sources.list.d/zz-non-free.list
 	sed -i 's/main/non-free/g' /etc/apt/sources.list.d/zz-non-free.list
 fi
 
->>>>>>> ae66df2b8b764df7bf2b3b6d3895358012791feb
 apt-get update
 apt-get -y install firmware-linux-nonfree
